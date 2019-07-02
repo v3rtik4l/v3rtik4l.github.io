@@ -177,7 +177,7 @@ li {
 }
 
 .open .bar.start {
-  transform: rotate(-450deg) translate(0.8rem);
+  transform: rotate(-450deg) translateX(0.8rem);
 }
 
 .bar.end {
@@ -187,7 +187,7 @@ li {
 }
 
 .open .bar.end {
-  transform: rotate(-450deg) translate(-0.8rem);
+  transform: rotate(-450deg) translateX(-0.8rem);
 }
 
 .landing-text {
@@ -323,6 +323,11 @@ li {
 
 .portfolio-item:last-child {
   margin-bottom: 0;
+}
+
+.profile-img {
+  width: 50rem;
+  flex: 1;
 }
 
 .portfolio-img {
